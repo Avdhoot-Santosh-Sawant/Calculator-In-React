@@ -1,0 +1,13 @@
+
+.header{
+    
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: green;
+
+}
+
+#app-name{
+  color: gold;
+}
