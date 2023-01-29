@@ -8,6 +8,34 @@
 
 }
 
+
 #app-name{
   color: gold;
+}
+
+#linkedin{
+position: absolute;
+padding: 8px 10px;
+background-color: white;
+border-radius: 50%;
+right: 10px;
+border: 1px solid  rgb(241, 241, 234);
+
+}
+
+#linkedin:hover{
+  box-shadow: 1px 1px 5px rgb(188, 230, 6);
+  border: 1px solid  yellow;
+
+}
+
+@media screen and (max-width:500px){
+  .header{
+   padding-bottom: 8px;
+}
+
+#linkedin{
+  right: 5px;
+  
+  }
 }
